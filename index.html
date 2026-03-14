@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tigrindo — Developer</title>
+<style>
+:root {
+  --accent: #ff7a00;
+  --bg: #0f0f14;
+  --card: #1a1a22;
+  --text: #ffffff;
+}
+body {
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(circle at top, #1f1f2b, #0f0f14);
+  color: var(--text);
+}
+header {
+  padding: 40px 20px;
+  text-align:center;
+}
+h1 {
+  font-size: 38px;
+  background: linear-gradient(90deg,#ff7a00,#ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card {
+  background: var(--card);
+  margin:20px;
+  padding:25px;
+  border-radius:20px;
+  box-shadow: 0 0 25px rgba(255,122,0,0.3);
+  transition:0.3s;
+}
+.card:hover {
+  transform:translateY(-5px);
+  box-shadow: 0 0 35px rgba(255,122,0,0.6);
+}
+a.button {
+  display:inline-block;
+  margin-top:15px;
+  padding:12px 20px;
+  border-radius:30px;
+  background: linear-gradient(90deg,#ff7a00,#ffcc00);
+  color:#000;
+  font-weight:bold;
+  text-decoration:none;
+}
+footer {
+  text-align:center;
+  padding:30px;
+  font-size:14px;
+  opacity:0.7;
+}
+@media(max-width:600px){
+  h1{font-size:28px;}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Tigrindo</h1>
+<p>Developed by Robert Scholz</p>
+</header>
+
+<div class="card">
+<h2>About the Developer</h2>
+<p>Hello, my name is Robert Scholz. I am an independent iOS developer focused on creating simple, transparent, and enjoyable gaming experiences.</p>
+<p>I believe in building clean apps with no hidden mechanics, no tracking, and clear communication with users.</p>
+</div>
+
+<div class="card">
+<h2>About the App</h2>
+<p><strong>Tigrindo</strong> is a tiger-themed social casino slot experience. It is designed purely for entertainment.</p>
+<p>No real money. No ads. No purchases. No data collection.</p>
+<a href="marketing.html" class="button">Marketing Info</a>
+<a href="privacy.html" class="button">Privacy Policy</a>
+<a href="support.html" class="button">Support</a>
+</div>
+
+<footer>
+Contact: robertscholz65@icloud.com<br>
+© 2026 Robert Scholz
+</footer>
+
+</body>
+</html>
